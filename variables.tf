@@ -23,16 +23,6 @@ variable "credentials_file_path" {
   description = "The credentials JSON file used to authenticate with GCP"
 }
 
-variable "k8s_username" {
-  type        = string
-  description = "The kubernetes master username"
-}
-
-variable "k8s_password" {
-  type        = string
-  description = "The kubernetes master password"
-}
-
 variable "service_account" {
   type        = string
   description = "The service account to use"
